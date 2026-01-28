@@ -1,0 +1,30 @@
+Prompt para o Replit: Criação do Site de Vendas Gustoo
+
+Contexto Geral:
+Quero que você crie o design e a estrutura visual de um site de vendas para a plataforma Gustoo, um serviço de cardápios online para restaurantes. O site deve ter um visual marcante, sofisticado e com navegação fluida, sem o formato engessado de seções tradicionais.
+
+Cores e Estilo:
+
+Use um laranja bem vibrante como cor principal, com detalhes em verde queimado para destaques. Adicione toques de bege e branco para suavizar o fundo e dar um ar mais clean e elegante.
+
+As fontes devem transmitir uma sensação gourmet e diferenciada. Escolha uma fonte elegante para os textos principais e use uma fonte moderna e impactante para frases de destaque.
+
+Estrutura e Navegação:
+
+O site deve ser uma única página fluida, tipo “one-page”, onde o usuário vai rolando para ver as seções sem que pareça uma estrutura engessada. Evite seções rígidas e avaliações tradicionais. Tudo deve fluir de forma dinâmica.
+
+Frases de Impacto e Destaques:
+
+No topo do site, inclua um banner com a frase: “Transforme seu restaurante com um toque: Cardápios digitais que fazem a diferença!” em uma fonte de destaque, combinando o laranja com um verde elegante.
+
+Na seção de planos, apresente cada plano em cards interativos, com cores que destaquem os benefícios. Use frases como: “Seu menu na palma da mão: simplifique pedidos e encante seus clientes.”
+
+Na parte que mostra a integração da cozinha e do garçom, inclua um destaque com a frase: “Pedidos em sincronia total: seu garçom e sua cozinha conectados em tempo real.”
+
+Distribuição de Elementos:
+
+Organize o conteúdo em seções que se mesclam suavemente, com transições visuais suaves. Use o laranja forte para títulos e elementos de chamada, o verde queimado para ícones ou pequenos detalhes e o bege/branco para fundos e áreas de leitura.
+
+Instruções Adicionais:
+
+Certifique-se de que o design transmita um ar sofisticado e gourmet, e que o usuário sinta que está navegando por algo único e não apenas um site comum.

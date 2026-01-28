@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Font Families */
+  --font-serif: 'Playfair Display', serif;
+  --font-sans: 'DM Sans', sans-serif;
+
+  /* Color Palette - Sophisticated Gourmet SaaS */
+  /* Main: Vibrant Orange #F97316 -> HSL 25 95% 53% */
+  /* Accent: Burnt Green #4A5D23 -> HSL 79 46% 25% */
+  /* Background: Beige #FDFBF7 -> HSL 40 33% 98% */
+  
+  --background: 40 33% 98%;
+  --foreground: 79 46% 25%; /* Using dark green for text for softer look than black */
+
+  --card: 0 0% 100%;
+  --card-foreground: 79 46% 25%;
+
+  --popover: 0 0% 100%;
+  --popover-foreground: 79 46% 25%;
+
+  --primary: 25 95% 53%; /* Orange */
+  --primary-foreground: 0 0% 100%;
+
+  --secondary: 79 46% 25%; /* Burnt Green */
+  --secondary-foreground: 40 33% 98%;
+
+  --muted: 40 20% 92%;
+  --muted-foreground: 79 20% 40%;
+
+  --accent: 25 95% 53%;
+  --accent-foreground: 0 0% 100%;
+
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 0 0% 98%;
+
+  --border: 79 20% 90%;
+  --input: 79 20% 90%;
+  --ring: 25 95% 53%;
+
+  --radius: 0.75rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+    @apply font-semibold tracking-tight;
+  }
+  
+  /* Selection color */
+  ::selection {
+    @apply bg-primary/20 text-primary-foreground;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .glass-card {
+    @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-xl;
+  }
+  
+  .organic-blob {
+    border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
+  }
+}
