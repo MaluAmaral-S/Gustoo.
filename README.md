@@ -158,8 +158,6 @@ Automação de atendimento.
 - Backend: Node.js + Express
 - Banco de dados: PostgreSQL
 - Tempo real: Socket.IO
-- Frontend: HTML/CSS/JS ou framework leve
-- Hospedagem inicial: AWS Free Tier
 - Arquitetura multi-tenant (SaaS)
 - Sistema modular e escalável
 
@@ -183,7 +181,6 @@ Planos mensais acessíveis:
 ### Plano Premium — R$ 199–299/mês
 - IA básica
 - Integrações
-- Automação
 - Recursos avançados
 
 ---
